@@ -6,6 +6,8 @@
     <title>Mp Nails</title>
     <meta name="keywords" content="estetica,uñas, nails, uñas monte grande, uñas caba, las mejores uñas, francesita, uñas esculpidas
     , kipping gel, esmaltado semipermanente">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,8 +19,8 @@
 
 <body>
 
-  <header class="shadow-lg">
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <header>
+    <nav data-aos="fade-left" class="navbar navbar-expand-lg navbar-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,15 +28,17 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="a nav-link" href="#nosotras">Nosotras</a>
-          </li>
-          <li class="nav-item">
-            <a class="a nav-link" href="#contacto">Contacto</a>
-          </li>
+          </li>          
           <li class="nav-item">
             <a class="a nav-link" href="#servicios">Servicios</a>
           </li>
+
           <li class="nav-item">
-            <a class="a nav-link" href="https://api.whatsapp.com/send?phone=+541130691169&text=Hola,%20quer%C3%ADa%20pedirte%20un%20turno!">Pedir turno</a>
+            <a class="a nav-link" href="#contacto">Contacto</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="a nav-link" href="https://api.whatsapp.com/send?phone=+541130691169&text=Hola,%20quer%C3%ADa%20pedirte%20un%20turno!"> <b> Pedir turno</b></a>
           </li>
         </ul>
       </div>
@@ -42,7 +46,7 @@
 
     <div class="header container-fluid">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+        <div data-aos="fade-right"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
             <h1>Mp Nails </h1>
             <h3>nails & beauty</h3>
              <a href="https://api.whatsapp.com/send?phone=+541130691169&text=Hola,%20quer%C3%ADa%20pedirte%20un%20turno!"><input class="turno" type="button" value="Pedir un turno"></a>
@@ -53,22 +57,24 @@
   </header>
 
 
-  <div id="nosotras" class="nosotras container">
+  <div data-aos="fade-left" id="nosotras" class="nosotras container-fluid">
+    <div class="container">
     <div class="row">
       <div class="col">
       <h3>
-        en <span style="font-family:'Dancing Script', cursive; font-size: 30px ;">Mp nails</span>  sabemos mejor que nadie como tratar tus manos, dandole la dedicación y el cuidado que se merecen
-        <br> visitanos en nuestro<a href="http://www.instagram.com/mpnails"> instagram <img style="height: 30px; width: 30px;" src="img/instagram.png" alt=""></a>
+        en <span style="font-family:'Dancing Script', cursive; font-size: 30px ;">Mp nails</span>  sabemos mejor que nadie como tratar tus manos, dandole la dedicación y el cuidado que se merecen.
+        <br> Visitanos en nuestro<a href="https://www.instagram.com/m.p.nails__"> instagram</a>
         donde diariamente compartimos los hermosos diseños que realizamos.
       </h3>
       </div>
     </div>
+    </div>
   </div>
 
-  <div class="trabajos container-fluid shadow-none">
+  <div data-aos="fade-right"  class="trabajos container-fluid">
     <div class="trabajos container">
 
-      <div class="mp1r row  shadow-lg">
+      <div data-aos="" class="mp1r row  shadow-lg">
       
         <div class="mp col-lg-2 col-md-2 col-sm-6 col-xs-6 col-6">
           <img class="img-fluid" src="img/mp4.jpg" alt="">
@@ -95,7 +101,7 @@
         </div>
       </div>
       
-      <div class="mp3r row  shadow-lg">
+      <div data-aos="fade-right"  class="mp3r row  shadow-lg">
       
         <div class="mp col-lg-2 col-md-2 col-sm-6 col-xs-6 col-6">
           <img class="img-fluid" src="img/mp4.jpg" alt="">
@@ -112,7 +118,11 @@
     </div>
   </div>
 
-  <div id="servicios" class="servicios container-fluid  shadow-lg ">
+  <div data-aos="fade-left"  class="banner">
+<h4>NUESTROS SERVICIOS</h4>
+  </div>
+
+  <div id="servicios" class="servicios container-fluid">
     <div class="container">
       
       <h3>Realizamos trabajos de</h3>
@@ -133,6 +143,10 @@
 
           <li id="s" data-toggle="collapse" data-target="#demo3"> Uñas esculpidas</li>
         <div id="demo3" class="collapse container"><p>Las uñas esculpidas son aquellas que se hacen a partir de materiales como acrílico y gel que permiten moldear la forma y longitud de cada uña. Este tipo de manicura se hace desde cero, es decir que a través de moldes y productos específicos se moldea la uña, dándole la forma y longitud más adecuada.</p></div> 
+        
+        
+        <li id="s" data-toggle="collapse" data-target="#demo4"> Perfilado y laminado de cejas</li>
+        <div id="demo4" class="collapse container"><p>El laminado de cejas, también conocido como brow lamination, es un tratamiento semi-permanente que busca redirigir el vello de las cejas para darles dirección y definición. El tratamiento remodela los «pelitos» para darles un poco de volumen con productos específicos.</p></div> 
 
         </ul>
 
@@ -152,22 +166,23 @@
     </div>
     </div>
   </div>
-
-
+<div data-aos="fade-right"  class="banner col-12">
+<h4>Datos de contacto</h4>
+</div>  
+<div data-aos="fade-left"  class="contact container-fluid">
   
-
   <div id="contacto" class="contacto container">
 
       <div class="row">
 
         <div class="if col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.19334363411733!2d-58.43524641828164!3d-34.62707745526487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4945713d17%3A0x6478b3bb16e747ee!2sJos%C3%A9%20Bonifacio%20558%2C%20C1424%20CABA!5e0!3m2!1ses-419!2sar!4v1606432540718!5m2!1ses-419!2sar" width="700" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26268.05798948883!2d-58.462239820185744!3d-34.61661968074028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3911f8ab2d%3A0x27b394c2f3d87d2d!2sCaballito%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1607320429402!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         
         </div>
 
 
-        <div class="direccion col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 shadow-none">
+        <div class="direccion col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 shadow-lg">
           
           <ul>
               <li>
@@ -177,21 +192,29 @@
                   <img src="img/telefono.svg" width="30px" height="30px" alt=""><p> 11 3069 1169</p>
               </li>
               <li>
-                <img src="img/marcador-de-posicion.svg" width="30px" height="30px" alt=""> <p>Jose Bonifacio, 558, CABA.</p>  
+                <img src="img/marcador-de-posicion.svg" width="30px" height="30px" alt=""> <p>Caballito, CABA.</p>  
               </li>
           </ul>
 
         </div>
-        
+        </div>
     </div>
   </div>
 
   
   <footer>
-    creado por  <a href="www.linkedin.com/i/legallaisgonzalo">Legallais Gonzalo</a>
+    creado por  <a href="http://www.instagram.com/maGo.code">MagoCode</a>
   </footer>
+  <script>
+    AOS.init({
+            offset: 0,
+	        delay: 00,
+	        duration: 900,
+	        easing: 'ease'
+        });
+</script>
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
