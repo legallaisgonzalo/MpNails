@@ -1,5 +1,5 @@
 body{
-    background: url("img/cora.png");
+    background-color: white;
 }
 .navbar-collapse{
     text-align: center;
@@ -37,7 +37,7 @@ header{
 
 
 .servicios{
-    background-color: rgb(255, 208, 215);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     background-size: cover;
     height: auto;
@@ -102,10 +102,10 @@ p{
 .trabajos{
     height: auto;
     padding: 20px;
-    background-color: rgb(255, 208, 215);
+    background-color: rgb(255, 255, 255);
 }
 .nosotras{
-    background-color: rgb(255, 208, 215);
+    background-color: rgb(255, 255, 255);
 }
 .banner{
     height: 15vh;
@@ -131,7 +131,7 @@ p{
     width: 100%;
     height: auto;
     overflow-x: hidden;
-    background-color: rgb(255, 208, 215);
+    background-color: rgb(255, 255, 255);
 }
 .if{
     padding: 10px;
