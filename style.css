@@ -1,5 +1,7 @@
 body{
-    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
 }
 .navbar-collapse{
     text-align: center;
@@ -37,7 +39,7 @@ header{
 
 
 .servicios{
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(90deg,rgb(246, 188, 224)5),rgb(250, 127, 219),rgb(255, 200, 239),#444);
     padding: 20px;
     background-size: cover;
     height: auto;
@@ -282,7 +284,6 @@ h4{
 .direccion{
     padding: 0px;
     margin: 0px;
-    background-color: rgba(255, 255, 255, 0.527);
     padding: 10px;
     
 }
